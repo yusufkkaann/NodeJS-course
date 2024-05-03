@@ -1,0 +1,46 @@
+// dosya oluşturma
+
+// fs.appendFile(
+//   "employees.json",
+//   '{"name": "Employee 1 Name", "salary": 2000}',
+//   (err) => {
+//     if (err) {
+//       console.log(err);
+//     } else {
+//       console.log("Dosya başarılı bir şekilde oluşturuldu.");
+//     }
+//   }
+// );
+// dosya okuma
+
+// fs.readFile("./employees.json", "utf8", (err, data) => {
+//   if (err) {
+//     console.log(err);
+//   } else {
+//     console.log(data);
+//     console.log("Dosya başarılı bir şekilde okundu.");
+//   }
+// });
+
+// dosya güncelleme
+
+// fs.writeFile(
+//   "./employees.json",
+//   '{ "name": "Employee 3 Name", "salary": 3000 }',
+//   (err) => {
+//     if (err) {
+//       console.log(err);
+//     } else {
+//       console.log("Dosya başarılı bir şekilde güncellendi.");
+//     }
+//   }
+// );
+
+// dosya silme
+// fs.unlink("./employees.json", (err) => {
+//   if (err) {
+//     console.log(err);
+//   } else {
+//     console.log("Dosya başarılı bir şekilde silindi.");
+//   }
+// });
